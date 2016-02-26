@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E90E5C391C80300900420617 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90E5C381C80300900420617 /* AppDelegate.swift */; };
+		E90E5C3B1C80300900420617 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90E5C3A1C80300900420617 /* ViewController.swift */; };
+		E90E5C3E1C80300900420617 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90E5C3C1C80300900420617 /* Main.storyboard */; };
+		E90E5C401C80300900420617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E90E5C3F1C80300900420617 /* Assets.xcassets */; };
+		E90E5C431C80300900420617 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90E5C411C80300900420617 /* LaunchScreen.storyboard */; };
+		E90E5C4E1C80300900420617 /* FreshAvocadosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90E5C4D1C80300900420617 /* FreshAvocadosTests.swift */; };
+		E90E5C591C80300900420617 /* FreshAvocadosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90E5C581C80300900420617 /* FreshAvocadosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E90E5C4A1C80300900420617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E90E5C2D1C80300900420617 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E90E5C341C80300900420617;
+			remoteInfo = FreshAvocados;
+		};
+		E90E5C551C80300900420617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E90E5C2D1C80300900420617 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E90E5C341C80300900420617;
+			remoteInfo = FreshAvocados;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E90E5C351C80300900420617 /* FreshAvocados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreshAvocados.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90E5C381C80300900420617 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E90E5C3A1C80300900420617 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E90E5C3D1C80300900420617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E90E5C3F1C80300900420617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E90E5C421C80300900420617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E90E5C441C80300900420617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E90E5C491C80300900420617 /* FreshAvocadosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreshAvocadosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90E5C4D1C80300900420617 /* FreshAvocadosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshAvocadosTests.swift; sourceTree = "<group>"; };
+		E90E5C4F1C80300900420617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E90E5C541C80300900420617 /* FreshAvocadosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreshAvocadosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90E5C581C80300900420617 /* FreshAvocadosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshAvocadosUITests.swift; sourceTree = "<group>"; };
+		E90E5C5A1C80300900420617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E90E5C321C80300900420617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90E5C461C80300900420617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90E5C511C80300900420617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E90E5C2C1C80300900420617 = {
+			isa = PBXGroup;
+			children = (
+				E90E5C371C80300900420617 /* FreshAvocados */,
+				E90E5C4C1C80300900420617 /* FreshAvocadosTests */,
+				E90E5C571C80300900420617 /* FreshAvocadosUITests */,
+				E90E5C361C80300900420617 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E90E5C361C80300900420617 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E90E5C351C80300900420617 /* FreshAvocados.app */,
+				E90E5C491C80300900420617 /* FreshAvocadosTests.xctest */,
+				E90E5C541C80300900420617 /* FreshAvocadosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E90E5C371C80300900420617 /* FreshAvocados */ = {
+			isa = PBXGroup;
+			children = (
+				E90E5C381C80300900420617 /* AppDelegate.swift */,
+				E90E5C3A1C80300900420617 /* ViewController.swift */,
+				E90E5C3C1C80300900420617 /* Main.storyboard */,
+				E90E5C3F1C80300900420617 /* Assets.xcassets */,
+				E90E5C411C80300900420617 /* LaunchScreen.storyboard */,
+				E90E5C441C80300900420617 /* Info.plist */,
+			);
+			path = FreshAvocados;
+			sourceTree = "<group>";
+		};
+		E90E5C4C1C80300900420617 /* FreshAvocadosTests */ = {
+			isa = PBXGroup;
+			children = (
+				E90E5C4D1C80300900420617 /* FreshAvocadosTests.swift */,
+				E90E5C4F1C80300900420617 /* Info.plist */,
+			);
+			path = FreshAvocadosTests;
+			sourceTree = "<group>";
+		};
+		E90E5C571C80300900420617 /* FreshAvocadosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E90E5C581C80300900420617 /* FreshAvocadosUITests.swift */,
+				E90E5C5A1C80300900420617 /* Info.plist */,
+			);
+			path = FreshAvocadosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E90E5C341C80300900420617 /* FreshAvocados */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E90E5C5D1C80300900420617 /* Build configuration list for PBXNativeTarget "FreshAvocados" */;
+			buildPhases = (
+				E90E5C311C80300900420617 /* Sources */,
+				E90E5C321C80300900420617 /* Frameworks */,
+				E90E5C331C80300900420617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreshAvocados;
+			productName = FreshAvocados;
+			productReference = E90E5C351C80300900420617 /* FreshAvocados.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E90E5C481C80300900420617 /* FreshAvocadosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E90E5C601C80300900420617 /* Build configuration list for PBXNativeTarget "FreshAvocadosTests" */;
+			buildPhases = (
+				E90E5C451C80300900420617 /* Sources */,
+				E90E5C461C80300900420617 /* Frameworks */,
+				E90E5C471C80300900420617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E90E5C4B1C80300900420617 /* PBXTargetDependency */,
+			);
+			name = FreshAvocadosTests;
+			productName = FreshAvocadosTests;
+			productReference = E90E5C491C80300900420617 /* FreshAvocadosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E90E5C531C80300900420617 /* FreshAvocadosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E90E5C631C80300900420617 /* Build configuration list for PBXNativeTarget "FreshAvocadosUITests" */;
+			buildPhases = (
+				E90E5C501C80300900420617 /* Sources */,
+				E90E5C511C80300900420617 /* Frameworks */,
+				E90E5C521C80300900420617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E90E5C561C80300900420617 /* PBXTargetDependency */,
+			);
+			name = FreshAvocadosUITests;
+			productName = FreshAvocadosUITests;
+			productReference = E90E5C541C80300900420617 /* FreshAvocadosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E90E5C2D1C80300900420617 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Office Hours";
+				TargetAttributes = {
+					E90E5C341C80300900420617 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = SJPJJ88L9Z;
+					};
+					E90E5C481C80300900420617 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = SJPJJ88L9Z;
+						TestTargetID = E90E5C341C80300900420617;
+					};
+					E90E5C531C80300900420617 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = SJPJJ88L9Z;
+						TestTargetID = E90E5C341C80300900420617;
+					};
+				};
+			};
+			buildConfigurationList = E90E5C301C80300900420617 /* Build configuration list for PBXProject "FreshAvocados" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E90E5C2C1C80300900420617;
+			productRefGroup = E90E5C361C80300900420617 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E90E5C341C80300900420617 /* FreshAvocados */,
+				E90E5C481C80300900420617 /* FreshAvocadosTests */,
+				E90E5C531C80300900420617 /* FreshAvocadosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E90E5C331C80300900420617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90E5C431C80300900420617 /* LaunchScreen.storyboard in Resources */,
+				E90E5C401C80300900420617 /* Assets.xcassets in Resources */,
+				E90E5C3E1C80300900420617 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90E5C471C80300900420617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90E5C521C80300900420617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E90E5C311C80300900420617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90E5C3B1C80300900420617 /* ViewController.swift in Sources */,
+				E90E5C391C80300900420617 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90E5C451C80300900420617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90E5C4E1C80300900420617 /* FreshAvocadosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90E5C501C80300900420617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90E5C591C80300900420617 /* FreshAvocadosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E90E5C4B1C80300900420617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E90E5C341C80300900420617 /* FreshAvocados */;
+			targetProxy = E90E5C4A1C80300900420617 /* PBXContainerItemProxy */;
+		};
+		E90E5C561C80300900420617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E90E5C341C80300900420617 /* FreshAvocados */;
+			targetProxy = E90E5C551C80300900420617 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E90E5C3C1C80300900420617 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E90E5C3D1C80300900420617 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E90E5C411C80300900420617 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E90E5C421C80300900420617 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E90E5C5B1C80300900420617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E90E5C5C1C80300900420617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E90E5C5E1C80300900420617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FreshAvocados/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OfficeHours.FreshAvocados;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E90E5C5F1C80300900420617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FreshAvocados/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OfficeHours.FreshAvocados;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E90E5C611C80300900420617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FreshAvocadosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OfficeHours.FreshAvocadosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreshAvocados.app/FreshAvocados";
+			};
+			name = Debug;
+		};
+		E90E5C621C80300900420617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FreshAvocadosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OfficeHours.FreshAvocadosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreshAvocados.app/FreshAvocados";
+			};
+			name = Release;
+		};
+		E90E5C641C80300900420617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FreshAvocadosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OfficeHours.FreshAvocadosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FreshAvocados;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E90E5C651C80300900420617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FreshAvocadosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OfficeHours.FreshAvocadosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FreshAvocados;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E90E5C301C80300900420617 /* Build configuration list for PBXProject "FreshAvocados" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90E5C5B1C80300900420617 /* Debug */,
+				E90E5C5C1C80300900420617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E90E5C5D1C80300900420617 /* Build configuration list for PBXNativeTarget "FreshAvocados" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90E5C5E1C80300900420617 /* Debug */,
+				E90E5C5F1C80300900420617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E90E5C601C80300900420617 /* Build configuration list for PBXNativeTarget "FreshAvocadosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90E5C611C80300900420617 /* Debug */,
+				E90E5C621C80300900420617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E90E5C631C80300900420617 /* Build configuration list for PBXNativeTarget "FreshAvocadosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90E5C641C80300900420617 /* Debug */,
+				E90E5C651C80300900420617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E90E5C2D1C80300900420617 /* Project object */;
+}
