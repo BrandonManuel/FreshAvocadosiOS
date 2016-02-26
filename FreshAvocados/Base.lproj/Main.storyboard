@@ -24,9 +24,6 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="icon180.png" translatesAutoresizingMaskIntoConstraints="NO" id="X4L-7j-c0d">
-                                <rect key="frame" x="150" y="137" width="75" height="107"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hrt-GU-siO">
                                 <rect key="frame" x="144" y="334" width="79" height="30"/>
                                 <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -46,6 +43,13 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J76-mb-tMj">
+                                <rect key="frame" x="93" y="132" width="180" height="180"/>
+                                <state key="normal" image="icon180.png"/>
+                                <connections>
+                                    <action selector="clickSplashLogo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hqq-ae-egX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -53,7 +57,7 @@
                             <constraint firstItem="kes-Cj-yzV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BTU-ys-a2o"/>
                             <constraint firstItem="HSn-fq-xSA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FxN-ag-e6D"/>
                             <constraint firstItem="O0v-NB-bXH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VEL-Ko-ccu"/>
-                            <constraint firstItem="X4L-7j-c0d" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vbC-Z8-COf"/>
+                            <constraint firstItem="J76-mb-tMj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zXO-Mu-iMQ"/>
                         </constraints>
                     </view>
                 </viewController>
