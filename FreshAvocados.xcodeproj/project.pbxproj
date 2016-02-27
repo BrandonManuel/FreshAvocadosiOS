@@ -14,7 +14,6 @@
 		E90E5C431C80300900420617 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90E5C411C80300900420617 /* LaunchScreen.storyboard */; };
 		E90E5C4E1C80300900420617 /* FreshAvocadosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90E5C4D1C80300900420617 /* FreshAvocadosTests.swift */; };
 		E90E5C591C80300900420617 /* FreshAvocadosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90E5C581C80300900420617 /* FreshAvocadosUITests.swift */; };
-		E90E5C671C80333000420617 /* avocado_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E90E5C661C80333000420617 /* avocado_logo.png */; };
 		E90E5C691C803FE400420617 /* icon180.png in Resources */ = {isa = PBXBuildFile; fileRef = E90E5C681C803FE400420617 /* icon180.png */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +48,6 @@
 		E90E5C541C80300900420617 /* FreshAvocadosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreshAvocadosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E90E5C581C80300900420617 /* FreshAvocadosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshAvocadosUITests.swift; sourceTree = "<group>"; };
 		E90E5C5A1C80300900420617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E90E5C661C80333000420617 /* avocado_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = avocado_logo.png; path = ../../../Downloads/avocado_logo.png; sourceTree = "<group>"; };
 		E90E5C681C803FE400420617 /* icon180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon180.png; path = Assets.xcassets/AppIcon.appiconset/icon180.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				E90E5C681C803FE400420617 /* icon180.png */,
-				E90E5C661C80333000420617 /* avocado_logo.png */,
 				E90E5C381C80300900420617 /* AppDelegate.swift */,
 				E90E5C3A1C80300900420617 /* ViewController.swift */,
 				E90E5C3C1C80300900420617 /* Main.storyboard */,
@@ -238,7 +235,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E90E5C671C80333000420617 /* avocado_logo.png in Resources */,
 				E90E5C431C80300900420617 /* LaunchScreen.storyboard in Resources */,
 				E90E5C401C80300900420617 /* Assets.xcassets in Resources */,
 				E90E5C3E1C80300900420617 /* Main.storyboard in Resources */,
@@ -495,6 +491,7 @@
 				E90E5C5F1C80300900420617 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E90E5C601C80300900420617 /* Build configuration list for PBXNativeTarget "FreshAvocadosTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +500,7 @@
 				E90E5C621C80300900420617 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E90E5C631C80300900420617 /* Build configuration list for PBXNativeTarget "FreshAvocadosUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +509,7 @@
 				E90E5C651C80300900420617 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

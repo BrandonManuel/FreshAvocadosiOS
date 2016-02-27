@@ -17,53 +17,138 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kes-Cj-yzV">
-                                <rect key="frame" x="142" y="397" width="83" height="30"/>
-                                <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Register">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hrt-GU-siO">
-                                <rect key="frame" x="144" y="334" width="79" height="30"/>
-                                <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Login">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Fresh Avocados" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HSn-fq-xSA">
-                                <rect key="frame" x="86" y="89" width="199" height="33"/>
-                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="28"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="A Movie Recommendation App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O0v-NB-bXH">
-                                <rect key="frame" x="47" y="120" width="277" height="24"/>
-                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="20"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J76-mb-tMj">
-                                <rect key="frame" x="93" y="132" width="180" height="180"/>
-                                <state key="normal" image="icon180.png"/>
-                                <connections>
-                                    <action selector="clickSplashLogo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hqq-ae-egX"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ikU-Xo-N9Q">
+                                <rect key="frame" x="166" y="151" width="268" height="297"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fresh Avocados" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HSn-fq-xSA">
+                                        <rect key="frame" x="40" y="0.0" width="188" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="lpm-7m-Hi7"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="27"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A Movie Recommendation App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O0v-NB-bXH">
+                                        <rect key="frame" x="0.0" y="25" width="268" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="N2T-JT-73V"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J76-mb-tMj">
+                                        <rect key="frame" x="44" y="49" width="180" height="180"/>
+                                        <state key="normal" image="icon180.png"/>
+                                        <connections>
+                                            <action selector="clickSplashLogo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hqq-ae-egX"/>
+                                        </connections>
+                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="vq4-Ij-AEl">
+                                        <rect key="frame" x="100" y="229" width="68" height="68"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hrt-GU-siO">
+                                                <rect key="frame" x="0.0" y="0.0" width="68" height="30"/>
+                                                <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Login">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kes-Cj-yzV">
+                                                <rect key="frame" x="0.0" y="38" width="68" height="30"/>
+                                                <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="OYU-Zt-hdh"/>
+                                                </constraints>
+                                                <state key="normal" title="Register">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="3NS-ZM-vfj" kind="presentation" id="4sE-cu-Cds"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="HSn-fq-xSA" firstAttribute="leading" secondItem="ikU-Xo-N9Q" secondAttribute="leading" constant="40" id="0yo-uI-6mD"/>
+                                    <constraint firstAttribute="trailing" secondItem="vq4-Ij-AEl" secondAttribute="trailing" constant="100" id="3bi-bk-7ds"/>
+                                    <constraint firstItem="vq4-Ij-AEl" firstAttribute="leading" secondItem="ikU-Xo-N9Q" secondAttribute="leading" constant="106" id="Eol-Ci-aV1"/>
+                                    <constraint firstItem="O0v-NB-bXH" firstAttribute="leading" secondItem="ikU-Xo-N9Q" secondAttribute="leading" id="WDv-Kj-vwq"/>
+                                    <constraint firstAttribute="height" constant="297" id="Wvc-Lg-ap8"/>
+                                    <constraint firstItem="vq4-Ij-AEl" firstAttribute="leading" secondItem="ikU-Xo-N9Q" secondAttribute="leading" constant="100" id="fYT-GY-A7e"/>
+                                    <constraint firstAttribute="width" constant="268" id="ibh-i1-FVn"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Eol-Ci-aV1"/>
+                                    </mask>
+                                </variation>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Hrt-GU-siO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9cM-y6-Abu"/>
-                            <constraint firstItem="kes-Cj-yzV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BTU-ys-a2o"/>
-                            <constraint firstItem="HSn-fq-xSA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FxN-ag-e6D"/>
-                            <constraint firstItem="O0v-NB-bXH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VEL-Ko-ccu"/>
-                            <constraint firstItem="J76-mb-tMj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zXO-Mu-iMQ"/>
+                            <constraint firstItem="ikU-Xo-N9Q" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="CXD-e9-VBC"/>
+                            <constraint firstItem="ikU-Xo-N9Q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EIU-fM-pHO"/>
+                            <constraint firstItem="ikU-Xo-N9Q" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="QKU-nO-iOe"/>
+                            <constraint firstItem="ikU-Xo-N9Q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="V3d-Uo-vvM"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="303" y="305"/>
+            <point key="canvasLocation" x="214" y="179"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Cq8-wd-vlx">
+            <objects>
+                <viewController id="3NS-ZM-vfj" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="K1Y-Bg-tPS"/>
+                        <viewControllerLayoutGuide type="bottom" id="zR6-4I-S1q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yA7-Lv-IIN">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uk6-BQ-OTG">
+                                <rect key="frame" x="232" y="103" width="68" height="73"/>
+                                <state key="normal" image="icon180.png"/>
+                                <connections>
+                                    <action selector="clickSplashLogo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rch-EL-Ulb"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Registration" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o7C-m1-Klv">
+                                <rect key="frame" x="204" y="79" width="124" height="21"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fsb-pK-ifd">
+                                <rect key="frame" x="239" y="275" width="55" height="30"/>
+                                <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="15"/>
+                                <state key="normal" title="Cancel">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="aMh-eQ-sD6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fsb-pK-ifd" firstAttribute="centerX" secondItem="yA7-Lv-IIN" secondAttribute="centerX" id="PkQ-FB-nbD"/>
+                            <constraint firstItem="Uk6-BQ-OTG" firstAttribute="centerX" secondItem="yA7-Lv-IIN" secondAttribute="centerX" id="QBP-bp-roJ"/>
+                            <constraint firstItem="fsb-pK-ifd" firstAttribute="centerY" secondItem="yA7-Lv-IIN" secondAttribute="centerY" id="Uc7-Bc-CpN"/>
+                            <constraint firstItem="o7C-m1-Klv" firstAttribute="centerX" secondItem="yA7-Lv-IIN" secondAttribute="centerX" id="brb-0u-JY1"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rvx-mv-DJr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="916" y="305"/>
         </scene>
     </scenes>
     <resources>
