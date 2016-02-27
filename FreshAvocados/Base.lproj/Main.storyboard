@@ -64,9 +64,6 @@
                                                 <state key="normal" title="Register">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 </state>
-                                                <connections>
-                                                    <segue destination="3NS-ZM-vfj" kind="presentation" id="4sE-cu-Cds"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -99,56 +96,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="214" y="179"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="Cq8-wd-vlx">
-            <objects>
-                <viewController id="3NS-ZM-vfj" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="K1Y-Bg-tPS"/>
-                        <viewControllerLayoutGuide type="bottom" id="zR6-4I-S1q"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="yA7-Lv-IIN">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uk6-BQ-OTG">
-                                <rect key="frame" x="232" y="103" width="68" height="73"/>
-                                <state key="normal" image="icon180.png"/>
-                                <connections>
-                                    <action selector="clickSplashLogo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rch-EL-Ulb"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Registration" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o7C-m1-Klv">
-                                <rect key="frame" x="204" y="79" width="124" height="21"/>
-                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="22"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fsb-pK-ifd">
-                                <rect key="frame" x="239" y="275" width="55" height="30"/>
-                                <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="15"/>
-                                <state key="normal" title="Cancel">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" id="aMh-eQ-sD6"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="fsb-pK-ifd" firstAttribute="centerX" secondItem="yA7-Lv-IIN" secondAttribute="centerX" id="PkQ-FB-nbD"/>
-                            <constraint firstItem="Uk6-BQ-OTG" firstAttribute="centerX" secondItem="yA7-Lv-IIN" secondAttribute="centerX" id="QBP-bp-roJ"/>
-                            <constraint firstItem="fsb-pK-ifd" firstAttribute="centerY" secondItem="yA7-Lv-IIN" secondAttribute="centerY" id="Uc7-Bc-CpN"/>
-                            <constraint firstItem="o7C-m1-Klv" firstAttribute="centerX" secondItem="yA7-Lv-IIN" secondAttribute="centerX" id="brb-0u-JY1"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rvx-mv-DJr" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="916" y="305"/>
         </scene>
     </scenes>
     <resources>
